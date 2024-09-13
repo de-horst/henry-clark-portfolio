@@ -3,9 +3,14 @@
  * @licence Apache-2.0
  */
 
+/**
+ * COMPONENTS
+ */
+import Header from "./components/Header";
+
 const App = () => {
     return (
-        <h1>Hello</h1>
+        <Header />
     )
 }
 
