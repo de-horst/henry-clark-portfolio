@@ -6,21 +6,22 @@
 /**
  * NODE MODULES
  */
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
 /**
  * COMPONENTS
  */
-import App from './App.jsx'
+import App from "./App.jsx";
 
 /**
  * CSS LINK
  */
-import './index.css'
+import "./index.css";
+import "lenis/dist/lenis.css";
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-  </StrictMode>,
-)
+  </StrictMode>
+);

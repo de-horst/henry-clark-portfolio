@@ -10,7 +10,7 @@ import { ButtonPrimary, ButtonOutline } from "./Button";
 
 const Hero = () => {
   return (
-    <section className="pt-28 lg:pt-36" id="hero">
+    <section className="pt-28 lg:pt-36" id="home">
       <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
         <div>
           <div className="flex items-center gap-3">
